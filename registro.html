@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Formulario de registro para estudiantes.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Conquer Academy</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-content">
+    <a class="logo" href="index.html">
+      <img src="img/logo-conquer.svg" alt="Logotipo de Conquer Academy">
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <main>
+  <section class="container section">
+    <form class="form-card" action="#" method="post" enctype="multipart/form-data">
+      <p class="tag">Registro</p>
+      <h1>Formulario de registro</h1>
+
+      <div class="form-group">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="form-group">
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" id="fecha" name="fecha" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion">
+      </div>
+
+      <div class="form-group">
+        <label for="web">Página web</label>
+        <input type="url" id="web" name="web">
+      </div>
+
+      <div class="form-group">
+        <label for="foto">Foto</label>
+        <input type="file" id="foto" name="foto" accept="image/*">
+      </div>
+
+      <div class="form-group">
+        <label for="bio">Biografía</label>
+        <textarea id="bio" name="bio"></textarea>
+      </div>
+
+      <button class="button" type="submit">Enviar registro</button>
+    </form>
+  </section>
+</main>
+  <footer class="site-footer">
+  <div class="container footer-content">
+    <p>&copy; 2026 Conquer Academy. Todos los derechos reservados.</p>
+    <p><a href="legal/aviso-legal.html">Aviso legal</a></p>
+  </div>
+</footer>
+</body>
+</html>

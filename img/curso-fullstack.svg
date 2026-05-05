@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#dbeafe"/>
+<rect x="120" y="90" width="660" height="340" rx="26" fill="#0f172a"/>
+<rect x="170" y="145" width="250" height="30" rx="8" fill="#38bdf8"/>
+<rect x="170" y="205" width="560" height="24" rx="8" fill="#94a3b8"/>
+<rect x="170" y="260" width="440" height="24" rx="8" fill="#94a3b8"/>
+<rect x="170" y="315" width="520" height="24" rx="8" fill="#94a3b8"/>
+<text x="210" y="472" font-family="Arial" font-size="34" font-weight="700" fill="#0f172a">Curso Full Stack</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f1f5f9"/>
+<circle cx="250" cy="205" r="70" fill="#38bdf8"/>
+<circle cx="450" cy="205" r="70" fill="#22c55e"/>
+<circle cx="650" cy="205" r="70" fill="#f97316"/>
+<rect x="170" y="310" width="160" height="95" rx="20" fill="#0f172a"/>
+<rect x="370" y="310" width="160" height="95" rx="20" fill="#0f172a"/>
+<rect x="570" y="310" width="160" height="95" rx="20" fill="#0f172a"/>
+<text x="300" y="470" font-family="Arial" font-size="34" font-weight="700" fill="#0f172a">Equipo docente</text>
+</svg>
